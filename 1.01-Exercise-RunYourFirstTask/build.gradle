@@ -24,7 +24,11 @@ Challenges:
 task hello {
     description "Hey student! Run this one :D"
     group "Our demo"
+
     doLast {
-        println "Hello World!"
+/*
+#        println "Hello World!"
+*/
+        println "Hello Rahul!"
     }
 }
